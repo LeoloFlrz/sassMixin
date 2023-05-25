@@ -12,4 +12,14 @@ body{
             text-align: center;
         }
     }
+
+
+    main {
+        @mixin secciones {
+            font-size: 30px;
+            font-style: bold;
+        }
+
+        @include secciones
+    }
 }
